@@ -134,3 +134,5 @@ kristynsCloset.splice(0, 1)
 
 console.log(kristynsCloset);
 */
+
+//Dirty Laundey and Inventory
