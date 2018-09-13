@@ -49,7 +49,7 @@ for (let i = 1; i <= 100; i++) {
   */
  
 //5. Getting to Know You
-
+/*
 const shahzad = ["Shahzad", 1000, "Austin"];
 const jim = ["Jim", 16, "All cities"];
 const reuben = ["Reuben", 22, "Durham"];
@@ -84,3 +84,11 @@ console.log(jim);
 jim.splice(2, 1);
 console.log(jim);
 
+*/
+
+ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo' ];
+
+for(let i = 0; i < ninjaTurtles.length; i++) {
+   ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+}
+console.log(ninjaTurtles);
