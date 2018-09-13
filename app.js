@@ -15,7 +15,7 @@ for (let i = 0; i <=200; i+=2) {
 */
 
 //3. Excited Kitten
-
+/*
 for(let i = 0; i < 20; i++) {
     console.log('Love me, pet me! HSSSSSS!');
     if (i % 2 === 0) {
@@ -31,4 +31,20 @@ for(let i = 0; i < 20; i++) {
             console.log("...why does the red dot always get away...");
         }
         }
+
+*/
+
+//4. Fizz Buzz
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+    console.log('FizzBuzz');  
+    } else if  (i % 5 === 0) {
+    console.log('Buzz');
+     } else  if (i % 3 === 0) {
+     console.log('Fizz');
+     } else 
+     console.log(i);
     }
+        
+    
